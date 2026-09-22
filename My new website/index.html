@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahrooz Ahmed - Portfolio</title>
+    <!-- Google Fonts Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=7.0">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">Shahrooz Ahmed<span class="dot">.</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero reveal">
+        <div class="hero-container">
+            <div class="hero-img">
+                <img src="profile.jpeg" alt="Shahrooz Ahmed">
+            </div>
+            <div class="hero-content">
+                <div class="badge">Available for Hire</div>
+                <h1>Hi, I'm <span class="highlight">Shahrooz Ahmed</span></h1>
+                <h2>Frontend Web Developer</h2>
+                <p>Crafting modern, high-performance, and responsive web applications with clean code and intuitive UI/UX.</p>
+                <a href="#contact" class="btn">Hire Me / Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <h2>About Me</h2>
+        <p>I am a passionate frontend web developer specializing in building responsive, user-friendly, and high-performance websites using HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills reveal">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript (DOM)</div>
+            <div class="skill-card">Responsive Design</div>
+            <div class="skill-card">Git / GitHub</div>
+            <div class="skill-card">Netlify Deployment</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects reveal">
+        <h2>Featured Projects</h2>
+        <div class="projects-container">
+            <!-- Task Manager (To-Do App) Project Card -->
+            <div class="project-card">
+                <h3>Task Manager (To-Do App)</h3>
+                <p>Interactive web application to manage daily tasks with real-time add, mark complete, and delete features using JavaScript DOM manipulation.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                    <span class="tech-stack">JS • CSS • HTML</span>
+                    <a href="https://shahrooz-todo-app.netlify.app" target="_blank" style="color: #10b981; text-decoration: none; font-weight: 600; font-size: 13px;">Live Demo ↗</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal responsive portfolio website built with modern Obsidian & Electric Emerald theme aesthetics.</p>
+                <span class="tech-stack">HTML • CSS • JS</span>
+            </div>
+
+            <div class="project-card">
+                <h3>E-Commerce Landing Page</h3>
+                <p>Modern responsive e-commerce landing page design with interactive shopping components.</p>
+                <span class="tech-stack">HTML • CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal">
+        <h2>Let's Work Together</h2>
+        <form action="https://formspree.io/f/xbjnqkyw" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Shahrooz Ahmed. Built with Passion &amp; Precision.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
